@@ -3,7 +3,7 @@
 
 ## Deskripsi Proyek
 
-Proyek ini adalah sistem prediksi sepsis berbasis machine learning yang menggunakan **Artificial Neural Network (ANN)** dan **XGBOOST** untuk mengklasifikasi risiko sepsis pada pasien rumah sakit. Model dilatih dengan pendekatan handling imbalanced data dan di-deploy sebagai REST API menggunakan Flask dengan containerization Docker.
+Proyek ini adalah sistem prediksi sepsis berbasis machine learning yang menggunakan **Artificial Neural Network (ANN)** dan **XGBOOST** untuk mengklasifikasi risiko sepsis pada pasien rumah sakit. Model dilatih dengan pendekatan handling imbalanced data dan di-deploy sebagai REST API menggunakan Fastapi dengan containerization Docker.
 
 **Akurasi Model: 95%**
 
