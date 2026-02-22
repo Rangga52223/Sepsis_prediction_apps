@@ -80,12 +80,12 @@ print(response.json())
 - **Preprocessing**: Standarisasi fitur menggunakan scaler yang tersimpan di `models_scaller/`
 - **Imbalanced Data**: Ditangani dengan teknik SMOTE dan weighted loss function
 - **Model**: ANN dengan layer optimization untuk mencapai akurasi 95%
-- **Deployment**: Flask untuk development, siap production dengan Gunicorn
+- **Deployment**: FastApi untuk development, siap production dengan Gunicorn
 
 ## Struktur File
 
 ```
-├── app.py - Main Flask application
+├── app.py - Main Fastapi application
 ├── requirements.txt - Dependencies
 ├── Dockerfile - Container configuration
 ├── models_scaller/ - Serialized model & scaler
