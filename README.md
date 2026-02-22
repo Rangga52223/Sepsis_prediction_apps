@@ -43,7 +43,7 @@ API akan berjalan di `http://localhost:8000`
 ### Contoh Request dengan cURL
 
 ```bash
-curl -X POST http://localhost:8000/predict \
+curl -X POST http://localhost:8000/api/v1/predict \
     -H "Content-Type: application/json" \
     -d '{
   "heart_rate": 103.0,
@@ -61,7 +61,7 @@ curl -X POST http://localhost:8000/predict \
 ```python
 import requests
 
-url = "http://localhost:5000/predict"
+url = "http://localhost:8000/api/v1/predict"
 data = {
   "heart_rate": 103.0,
   "respiratory_rate": 21.0,
